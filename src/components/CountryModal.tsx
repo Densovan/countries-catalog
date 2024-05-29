@@ -8,8 +8,8 @@ interface CountryModalProps {
 
 const CountryModal: React.FC<CountryModalProps> = ({ country, onClose }) => {
   return (
-    <div className="block fixed z-[100] left-0 top-0 w-[100%] h-[100%] overflow-auto bg-black bg-opacity-40">
-      <div className="bg-white z-[100] p-[20px] w-[70%] m-15p mx-auto rounded-md">
+    <div className="block fixed z-50 left-0 top-0 w-[100%] h-[100%] overflow-auto bg-black bg-opacity-40">
+      <div className="bg-white z-60 p-[20px] w-[70%] m-15p mx-auto rounded-md">
         <span
           className="text-[#aaa] float-right text-[28px] font-bold hover:text-red-500 focus:text-red-500 hover:no-underline focus:no-underline hover:cursor-pointer focus:cursor-pointer"
           onClick={onClose}
