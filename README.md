@@ -19,8 +19,8 @@ Country Catalog is a React application that displays a list of countries with th
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/country-catalog.git
-   cd country-catalog
+   git clone https://github.com/Densovan/countries-catalog.git
+   cd countries-catalog
    npm install
    npm run dev
    ```
